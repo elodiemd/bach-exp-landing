@@ -1,31 +1,20 @@
-/* Graphical variables */
-@import "config/fonts";
-@import "config/colors";
-@import "config/bootstrap_variables";
-
-/* External libraries */
-@import "bootstrap/scss/bootstrap";
-@import "css";
-@import "font-awesome-sprockets";
-@import "font-awesome";
-
-/* Your CSS partials */
-@import "components/index";
-@import "pages/index";
-
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 /*  FONTS */
-body p
-{
-  font-family: "Nunito", "sans-serif";
+p {
+  /* font-family: "Nunito", "sans-serif"; */
+  font-family: 'Work Sans',sans-serif;
 }
 
 h1 {
   font-family: "GFS Didot", "serif";
 }
+
+h2 {
+  font-family: "GFS Didot", "serif";
+  font-weight: bold;
+}
+
+
 /*  NAVBAR  */
 
 .navbar-bach {
@@ -165,4 +154,70 @@ button:hover::after {
     clip-path: var(--slice-1);
     transform: translate(0);
   }
+}
+
+
+/* CARD CATEGORY */
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/* SECTION INFOS */
+
+.section-bach-exp {
+  background-color: white;
+  padding: 20px;
+}
+
+.value-prop {
+  background-color: #F2EAD0;
+}
+
+/* ICON */
+
+i {
+  font-size: 30px;
+  color: #F2441D;
+}
+
+
+/* FOOTER */
+footer em {
+  color: #ffc371;
+  font-weight: bold;
+}
+
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #f2bb16;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
+
+
+.end-footer {
+  background-color: #f2bb16;
+  color: white !important;
+
+  ;
+}
+
+.fab {
+  color: white;
 }
