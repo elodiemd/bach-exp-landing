@@ -1,19 +1,20 @@
 
 /*  FONTS */
-p {
-  /* font-family: "Nunito", "sans-serif"; */
-  font-family: 'Work Sans',sans-serif;
-}
+
 
 h1 {
   font-family: "GFS Didot", "serif";
 }
 
 h2 {
-  font-family: "GFS Didot", "serif";
+  font-family: 'Work Sans',sans-serif;
   font-weight: bold;
 }
 
+p {
+  /* font-family: "Nunito", "sans-serif"; */
+  font-family: 'Work Sans', sans-serif;
+}
 
 /*  NAVBAR  */
 
