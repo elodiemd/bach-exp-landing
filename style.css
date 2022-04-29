@@ -1,14 +1,19 @@
 
 /*  FONTS */
-
-
-h1 {
-  font-family: "GFS Didot", "serif";
+.section-bach-exp h2 {
+    font-family: 'GFS Didot', serif;
+    font-weight: 500;
 }
 
-h2 {
-  font-family: 'Work Sans',sans-serif;
-  font-weight: bold;
+.value-prop, h2, h1 {
+font-family: 'GFS Didot', serif;
+font-weight: bolder;
+}
+
+.section-destination h2 {
+font-family: 'GFS Didot',
+serif;
+font-weight: bolder;
 }
 
 p {
@@ -34,9 +39,15 @@ p {
 
 /*  HEADER */
 
+.banner button {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bolder;
+}
+
 .banner {
   height: 500px;
   width: auto;
+  font-family: 'GFS Didot', serif;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -44,7 +55,9 @@ p {
   align-items: center;
   justify-content: center;
   background-image: url("/images/bach-exp-2.png");
+  font-weight: bolder;
 }
+
 
 .text-banner {
   color: white;
@@ -63,7 +76,7 @@ button,
 button::after {
   width: 200px;
   height: 50px;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bolder;
   font-family: "GFS Didot", "serif";
   background: linear-gradient(45deg, transparent 5%, #F2441D 5%);
