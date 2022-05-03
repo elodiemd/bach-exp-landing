@@ -29,12 +29,20 @@ p {
 }
 
 .navbar-bach .navbar-collapse {
-  flex-grow: 0;
+  /* flex-grow: 0; */
 }
 
 .navbar-bach .navbar-brand img {
   width: 160px;
 }
+@media only screen and (max-width: 600px) {
+
+.navbar-bach div {
+  visibility: hidden;
+  justify-content: center;
+}
+}
+
 
 
 /*  HEADER */
