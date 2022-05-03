@@ -29,7 +29,7 @@ p {
 }
 
 .navbar-bach .navbar-collapse {
-  /* flex-grow: 0; */
+  flex-grow: 0;
 }
 
 .navbar-bach .navbar-brand img {
@@ -37,9 +37,17 @@ p {
 }
 @media only screen and (max-width: 600px) {
 
+.navbar {
+  flex-wrap: inherit;
+}
 .navbar-bach div {
   visibility: hidden;
-  justify-content: center;
+    flex-wrap: inherit;
+}
+
+.navbar-bach img {
+  position: initial;
+  margin-left: 70px
 }
 }
 
@@ -76,6 +84,7 @@ p {
   flex-direction: column;
   align-content: center;
   justify-content: center;
+  margin: 10px;
 }
 
 
